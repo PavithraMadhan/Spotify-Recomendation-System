@@ -46,4 +46,4 @@ class Spotify_Recommendation():
         return rec[columns][:amount]
 
 recommendations = Spotify_Recommendation(data)
-recommendations.recommend("Lovers Rock", 10)
+recommendations.recommend("Reminder", 10)
